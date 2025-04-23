@@ -2,61 +2,86 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-4.jpg"; 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `Hi, I’m Abhiram Reddy—software engineer(you can also call me 'Ram'), systems thinker, and part-time philosopher in the world of logic and latency. I build with Python, Java, .NET Core, SQL, and JavaScript, deploy with Docker and Jenkins, and navigate the cloud via AWS and Azure (with minimal panic). My current obsessions include building intelligent retrieval systems with LangChain and RAG, untangling logs like a digital detective, and making infrastructure behave without bribery (most of the time).
+
+Beyond the stack, I’m deeply curious about human psychology, love a good debate that doesn’t end in a mute button, and find market cycles just as fascinating as event-driven architectures. I believe in writing code that works—and in asking the bigger “why” behind the things we build.`;
+
+export const ABOUT_TEXT = `An engineer who enjoys building systems that are not just functional, but thoughtful. My focus spans software development, cloud infrastructure, and AI-powered applications, particularly those that aim to make complex things feel a little less complicated. Whether it's designing a retrieval pipeline, debugging logs, or automating a DevOps flow, I approach problems with a mix of precision, curiosity, and practicality.
+
+I care as much about how things work as why they matter. My work often blends structured engineering with a human lens—exploring not just performance, but usability, ethics, and continuous improvement. I’m driven by a need to learn and evolve, and I like to believe that upgrading myself is the most consistent system I’ve ever built.
+
+Outside of tech, I’m into motorbikes, stock markets, and the long-term game of financial independence. I also ski—badly—but with commitment. Let’s just say gravity and I are still negotiating the terms.`;
 
 export const EXPERIENCES = [
   {
-    "year": "Sep 2023 - Present",
-    "role": "Software AI Engineer",
-    "company": "Colorado State University",
-    "description": "Developed a Retrieval-Augmented Generation (RAG) system enabling software engineers to efficiently find relevant technical research papers and documentation. Built a FAISS-powered vector search system indexing 1000+ papers, improving retrieval efficiency by 35%. Integrated an LLM-powered chatbot for summarizing and explaining complex concepts, reducing research time by 40%. Implemented a LangChain-based pipeline for intelligent document retrieval and AI-generated insights.",
-    "technologies": ["Python", "LangChain", "FAISS", "LLM", "JavaScript", "React.js", "Next.js", "MongoDB"]
+    year: "Sep 2023 - Present",
+    role: "Graduate Research Assistant",
+    company: "Colorado State University",
+    description: "Designed scalable data pipelines and orchestrated 100+ cloud testbed servers using Docker for advanced network research. Automated root cause analysis for packet transmission errors with Python and Kubernetes, and performed TCP error analysis to enhance checksum validation. Developed RESTful APIs and real-time processing systems, improving data throughput by 40%.",
+    technologies: ["Python", "SQL", "Docker", "REST APIs", "Kubernetes", "Bash", "Cloud Infrastructure"]
   },
   {
-    "year": "Feb 2022 - Mar 2023",
-    "role": "Software Development Engineer Intern",
-    "company": "IntelliSense Software Pvt Ltd",
-    "description": "Led the design and implementation of a full-stack CI/CD pipeline using Jenkins, Kubernetes, Git, SonarQube, and Nexus, streamlining code integration and deployment for enterprise DevOps workflows. Configured Kubernetes clusters for scalable microservices deployment, optimizing infrastructure and reducing deployment time. Integrated automated security scanning, reducing vulnerabilities early in the development cycle. Enabled automated build, test, and deployment processes using Git and Jenkins, reducing manual intervention by 60%.",
-    "technologies": ["Jenkins", "Kubernetes", "Git", "SonarQube", "Nexus", "Next.js", "React.js", "MySQL"]
-  },
+    year: "Feb 2022 - Mar 2023",
+    role: "Software Development Engineer Intern",
+    company: "IntelliSense Software Pvt Ltd",
+    description: "Developed scalable backend services using C# and .NET Core for enterprise DevOps pipelines. Built RESTful APIs, integrated Razor Pages for UI workflows, and implemented Jenkins-based CI/CD automation with Git. Enhanced code quality and security through static analysis using SonarQube and Nexus.",
+    technologies: ["C#", ".NET Core", "Jenkins", "Git", "SQL Server", "SonarQube", "Nexus", "Razor Pages"]
+  }
 ];
+
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    
+      title: "Portfolio Website",
+      link: "https://github.com/abhiram0811/react-portfolio-ram", 
+      image: project5, 
+      description:
+        "Built a modern developer portfolio using Vite, React, Tailwind CSS, and Framer Motion. Features dynamic sections like Projects, Skills, and Experience with animated transitions, responsive design, and seamless deployment via Vercel with a custom domain.",
+      technologies: ["React", "Vite", "Tailwind CSS", "Framer Motion", "Vercel", "GitHub"],
+    
+    
   },
   {
-    title: "Task Management App",
+    title: "LLM-Powered Cold Email Generator",
+    link: "https://github.com/abhiram0811/cold-email-ai-gen",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a full-stack RAG system using LangChain, ChromaDB, and Llama3.1 to generate targeted emails. Showcases retrieval-based prompting, OpenAI integration, and deploys seamlessly using Streamlit.",
+    technologies: ["LangChain", "Python", "Llama3.1", "ChromaDB", "Streamlit", "OpenAI API"],
   },
   {
-    title: "Portfolio Website",
+    title: "Soil Type Classification with Deep Learning",
+    link: "https://github.com/abhiram0811/Soil-type-classification-of-LANDSAT-8-images-using-deep-CNN-techniques-",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Built a CNN model achieving 97.5% accuracy for classifying soil types from satellite images. Integrated OpenCV and Pillow for preprocessing, with a Django-powered dashboard for user interaction.",
+    technologies: ["Python", "TensorFlow", "OpenCV", "Django", "Pillow"],
   },
   {
-    title: "Blogging Platform",
+    title: "School Solver Discord Bot",
+    link: "https://github.com/abhiram0811/Automated-SchoolSolver-WebScraping-Discord-Bot",
+    image: project1,
+    description:
+      "Automated real-time question alerts for 50+ users using Beautiful Soup, Selenium, and Flask. Reduced manual monitoring by 95% by scraping educational platforms and pushing updates via Discord.",
+    technologies: ["Python", "Beautiful Soup", "Flask", "Selenium", "Discord API"],
+  },
+  {
+    title: "ASP.NET Core E-Commerce Restaurant App",
+    link: "https://github.com/yourusername/aspnet-ecommerce-restaurant",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Full-stack ASP.NET Core MVC web app with user auth, menu CRUD, cart session tracking, EF Core (Code-First), and Bootstrap styling. Demonstrates database relationships, DI, and Razor views.",
+    technologies: ["C#", "ASP.NET Core", "Entity Framework", "SQL Server", "Bootstrap", "Razor Pages"],
   },
 ];
 
+
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Fort Collins, CO ",
+  phoneNo: "+1 (970)-(232)-(0207) ",
+  email: "abhiramry11@gmail.com",
 };

@@ -23,7 +23,7 @@ const Hero = () => {
             initial="hidden"
             animate ="visible"
             className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
-            Abhiram Mulinti
+            Abhiram Reddy Mulinti
             </motion.h1>
         <motion.span 
         variants={container(0.5)}
@@ -43,13 +43,15 @@ const Hero = () => {
      </div>
      <div className="w-full lg:w-1/2 lg:p-8">
         <div className="flex justify-center">
-            <motion.img className="rounded-2xl"
-            initial= {{ x: 100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition= {{ duration: 1, delay: 1.2 }}
-            src={profilePic}
-            alt="Abhiram Mulinti"
-            />
+        <motion.img
+  className="rounded-2xl h-[600px] object-cover"
+  initial={{ x: 100, opacity: 0 }}
+  animate={{ x: 0, opacity: 1 }}
+  transition={{ duration: 1, delay: 1.2 }}
+  src={profilePic}
+  alt="Abhiram Mulinti"
+/>
+
         </div>
 
      </div>
