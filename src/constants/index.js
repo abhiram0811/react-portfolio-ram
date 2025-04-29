@@ -1,8 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-4.jpg"; 
+import project1 from "../assets/projects/p1.jpg";
+import project2 from "../assets/projects/p2.png";
+import project3 from "../assets/projects/p3.jpg";
+import project4 from "../assets/projects/p4.jpg";
+import project5 from "../assets/projects/p5.jpg"; 
 
 
 export const HERO_CONTENT = `Hi, I’m Abhiram Reddy—software engineer(you can also call me 'Ram'), systems thinker, and part-time philosopher in the world of logic and latency. I build with Python, Java, .NET Core, SQL, and JavaScript, deploy with Docker and Jenkins, and navigate the cloud via AWS and Azure (with minimal panic). My current obsessions include building intelligent retrieval systems with LangChain and RAG, untangling logs like a digital detective, and making infrastructure behave without bribery (most of the time).
@@ -36,9 +36,9 @@ export const EXPERIENCES = [
 export const PROJECTS = [
 
   {
-    title: "ASP.NET Core E-Commerce Restaurant App",
+    title: "Ram's Restaurant-ASP.NET Core Restaurant App",
     link: "https://restaurant.abhirammulinti.com/",
-    image: project4,
+    image: project1,
     description:
       "A full-stack ASP.NET Core Razor Pages web application with complete CRUD functionality for menu management, user authentication, session-based cart tracking, and database integration using Entity Framework Core (Code-First). The project is styled with Bootstrap, demonstrates dependency injection, database relationships, and dynamic Razor views, and is hosted on Azure Web App Services for seamless deployment.",
     technologies: ["C#", "ASP.NET Core", "Entity Framework Core", "SQL Server", "Bootstrap", "Razor Pages", "Dependency Injection", "Session Management", "Azure Web App Services"],
@@ -50,7 +50,7 @@ export const PROJECTS = [
     
       title: "Portfolio Website",
       link: "https://github.com/abhiram0811/react-portfolio-ram", 
-      image: project5, 
+      image: project2, 
       description:
         "Built a modern developer portfolio using Vite, React, Tailwind CSS, and Framer Motion. Features dynamic sections like Projects, Skills, and Experience with animated transitions, responsive design, and seamless deployment via Vercel with a custom domain.",
       technologies: ["React", "Vite", "Tailwind CSS", "Framer Motion", "Vercel", "GitHub"],
@@ -60,7 +60,7 @@ export const PROJECTS = [
   {
     title: "LLM-Powered Cold Email Generator",
     link: "https://github.com/abhiram0811/cold-email-ai-gen",
-    image: project2,
+    image: project3,
     description:
       "Developed a full-stack RAG system using LangChain, ChromaDB, and Llama3.1 to generate targeted emails. Showcases retrieval-based prompting, OpenAI integration, and deploys seamlessly using Streamlit.",
     technologies: ["LangChain", "Python", "Llama3.1", "ChromaDB", "Streamlit", "OpenAI API"],
@@ -68,7 +68,7 @@ export const PROJECTS = [
   {
     title: "Soil Type Classification with Deep Learning",
     link: "https://github.com/abhiram0811/Soil-type-classification-of-LANDSAT-8-images-using-deep-CNN-techniques-",
-    image: project3,
+    image: project4,
     description:
       "Built a CNN model achieving 97.5% accuracy for classifying soil types from satellite images. Integrated OpenCV and Pillow for preprocessing, with a Django-powered dashboard for user interaction.",
     technologies: ["Python", "TensorFlow", "OpenCV", "Django", "Pillow"],
@@ -76,7 +76,7 @@ export const PROJECTS = [
   {
     title: "School Solver Discord Bot",
     link: "https://github.com/abhiram0811/Automated-SchoolSolver-WebScraping-Discord-Bot",
-    image: project1,
+    image: project5,
     description:
       "Automated real-time question alerts for 50+ users using Beautiful Soup, Selenium, and Flask. Reduced manual monitoring by 95% by scraping educational platforms and pushing updates via Discord.",
     technologies: ["Python", "Beautiful Soup", "Flask", "Selenium", "Discord API"],
