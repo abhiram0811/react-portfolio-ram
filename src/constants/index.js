@@ -34,7 +34,19 @@ export const EXPERIENCES = [
 
 
 export const PROJECTS = [
+
   {
+    title: "ASP.NET Core E-Commerce Restaurant App",
+    link: "https://restaurant.abhirammulinti.com/",
+    image: project4,
+    description:
+      "A full-stack ASP.NET Core Razor Pages web application with complete CRUD functionality for menu management, user authentication, session-based cart tracking, and database integration using Entity Framework Core (Code-First). The project is styled with Bootstrap, demonstrates dependency injection, database relationships, and dynamic Razor views, and is hosted on Azure Web App Services for seamless deployment.",
+    technologies: ["C#", "ASP.NET Core", "Entity Framework Core", "SQL Server", "Bootstrap", "Razor Pages", "Dependency Injection", "Session Management", "Azure Web App Services"],
+  },
+
+  {
+
+    
     
       title: "Portfolio Website",
       link: "https://github.com/abhiram0811/react-portfolio-ram", 
@@ -69,14 +81,8 @@ export const PROJECTS = [
       "Automated real-time question alerts for 50+ users using Beautiful Soup, Selenium, and Flask. Reduced manual monitoring by 95% by scraping educational platforms and pushing updates via Discord.",
     technologies: ["Python", "Beautiful Soup", "Flask", "Selenium", "Discord API"],
   },
-  {
-    title: "ASP.NET Core E-Commerce Restaurant App",
-    link: "https://github.com/yourusername/aspnet-ecommerce-restaurant",
-    image: project4,
-    description:
-      "Full-stack ASP.NET Core MVC web app with user auth, menu CRUD, cart session tracking, EF Core (Code-First), and Bootstrap styling. Demonstrates database relationships, DI, and Razor views.",
-    technologies: ["C#", "ASP.NET Core", "Entity Framework", "SQL Server", "Bootstrap", "Razor Pages"],
-  },
+  
+
 ];
 
 

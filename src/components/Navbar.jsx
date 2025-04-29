@@ -1,4 +1,4 @@
-import logo from "../assets/AM.png";
+import logo from "/src/assets/ram-logo.png";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
