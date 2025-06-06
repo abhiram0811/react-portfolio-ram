@@ -37,7 +37,7 @@ export const PROJECTS = [
 
   {
     title: "Ram's Restaurant-ASP.NET Core Restaurant App",
-    link: "https://restaurant.abhirammulinti.com/",
+    link: "https://github.com/abhiram0811/ram-restaurant",
     image: project1,
     description:
       "A full-stack ASP.NET Core Razor Pages web application with complete CRUD functionality for menu management, user authentication, session-based cart tracking, and database integration using Entity Framework Core (Code-First). The project is styled with Bootstrap, demonstrates dependency injection, database relationships, and dynamic Razor views, and is hosted on Azure Web App Services for seamless deployment.",
