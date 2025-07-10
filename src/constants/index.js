@@ -5,15 +5,15 @@ import project4 from "../assets/projects/p4.jpg";
 import project5 from "../assets/projects/p5.jpg"; 
 
 
-export const HERO_CONTENT = `Hi, I’m Abhiram Reddy—software engineer(you can also call me 'Ram'), systems thinker, and part-time philosopher in the world of logic and latency. I build with Python, Java, .NET Core, SQL, and JavaScript, deploy with Docker and Jenkins, and navigate the cloud via AWS and Azure (with minimal panic). My current obsessions include building intelligent retrieval systems with LangChain and RAG, untangling logs like a digital detective, and making infrastructure behave without bribery (most of the time).
+export const HERO_CONTENT = `Hi, I’m Abhiram Reddy; software engineer(I respond to 'Ram' as well), systems thinker, and part-time philosopher in the world of logic and latency. I build with Python, Java, .NET Core, SQL, and JavaScript, deploy with Docker and Jenkins, and navigate the cloud via AWS and Azure (with minimal panic). My current obsessions include building intelligent retrieval systems with LangChain and RAG, untangling logs like a digital detective, and making infrastructure behave without bribery (most of the time).
 
-Beyond the stack, I’m deeply curious about human psychology, love a good debate that doesn’t end in a mute button, and find market cycles just as fascinating as event-driven architectures. I believe in writing code that works—and in asking the bigger “why” behind the things we build.`;
+Beyond the stack, I’m deeply curious about human psychology, love a good debate that doesn’t end in a mute button, and find market cycles just as fascinating as event-driven architectures. I believe in writing code that works; and in asking the bigger “why” behind the things we build.`;
 
 export const ABOUT_TEXT = `An engineer who enjoys building systems that are not just functional, but thoughtful. My focus spans software development, cloud infrastructure, and AI-powered applications, particularly those that aim to make complex things feel a little less complicated. Whether it's designing a retrieval pipeline, debugging logs, or automating a DevOps flow, I approach problems with a mix of precision, curiosity, and practicality.
 
-I care as much about how things work as why they matter. My work often blends structured engineering with a human lens—exploring not just performance, but usability, ethics, and continuous improvement. I’m driven by a need to learn and evolve, and I like to believe that upgrading myself is the most consistent system I’ve ever built.
+I care as much about how things work as why they matter. My work often blends structured engineering with a human lens; exploring not just performance, but usability, ethics, and continuous improvement. I’m driven by a need to learn and evolve, and I like to believe that upgrading myself is the most consistent system I’ve ever built.
 
-Outside of tech, I’m into motorbikes, stock markets, and the long-term game of financial independence. I also ski—badly—but with commitment. Let’s just say gravity and I are still negotiating the terms.`;
+Outside of tech, I’m into motorbikes, stock markets, and the long-term game of financial independence. I also ski; badly :) but with commitment. Let’s just say gravity and I are still negotiating the terms.`;
 
 export const EXPERIENCES = [
   {
