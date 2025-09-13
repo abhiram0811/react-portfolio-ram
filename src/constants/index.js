@@ -2,7 +2,8 @@ import project1 from "../assets/projects/p1.jpg";
 import project2 from "../assets/projects/p2.png";
 import project3 from "../assets/projects/p3.jpg";
 import project4 from "../assets/projects/p4.jpg";
-import project5 from "../assets/projects/p5.jpg"; 
+import project5 from "../assets/projects/p5.jpg";
+import project6 from "../assets/projects/p6.jpg";
 
 
 export const HERO_CONTENT = `Hi, I’m Abhiram Reddy; software engineer(I respond to 'Ram' as well), systems thinker, and part-time philosopher in the world of logic and latency. I build with Python, Java, .NET Core, SQL, and JavaScript, deploy with Docker and Jenkins, and navigate the cloud via AWS and Azure (with minimal panic). My current obsessions include building intelligent retrieval systems with LangChain and RAG, untangling logs like a digital detective, and making infrastructure behave without bribery (most of the time).
@@ -36,6 +37,15 @@ export const EXPERIENCES = [
 export const PROJECTS = [
 
   {
+  title: "LX50 - Linux Command Learning Platform",
+  link: "https://lx50.netlify.app/",
+  image: project6,
+  description:
+    "An interactive React-based web application designed to teach Linux commands through a 50-day challenge format. The platform features a user-friendly interface with personalized learning paths, progress tracking, and daily command challenges. Users can create accounts, track their progress, and learn Linux commands in an engaging, step-by-step approach. The application implements React hooks for state management, responsive design principles, and provides real-time feedback on user interactions.",
+  technologies: ["React", "JavaScript", "CSS3", "HTML5", "React Hooks", "State Management", "Responsive Design", "User Authentication", "Progressive Learning"],
+},
+
+  {
     title: "Ram's Restaurant-ASP.NET Core Restaurant App",
     link: "https://github.com/abhiram0811/ram-restaurant",
     image: project1,
@@ -46,16 +56,16 @@ export const PROJECTS = [
 
   {
 
-    
-    
+
+
       title: "Portfolio Website",
-      link: "https://github.com/abhiram0811/react-portfolio-ram", 
-      image: project2, 
+      link: "https://github.com/abhiram0811/react-portfolio-ram",
+      image: project2,
       description:
         "Built a modern developer portfolio using Vite, React, Tailwind CSS, and Framer Motion. Features dynamic sections like Projects, Skills, and Experience with animated transitions, responsive design, and seamless deployment via Vercel with a custom domain.",
       technologies: ["React", "Vite", "Tailwind CSS", "Framer Motion", "Vercel", "GitHub"],
-    
-    
+
+
   },
   {
     title: "LLM-Powered Cold Email Generator",
@@ -81,7 +91,7 @@ export const PROJECTS = [
       "Automated real-time question alerts for 50+ users using Beautiful Soup, Selenium, and Flask. Reduced manual monitoring by 95% by scraping educational platforms and pushing updates via Discord.",
     technologies: ["Python", "Beautiful Soup", "Flask", "Selenium", "Discord API"],
   },
-  
+
 
 ];
 
